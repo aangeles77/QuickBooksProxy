@@ -17,3 +17,7 @@ COPY --from=build /app/out .
 
 # Set the entry point
 ENTRYPOINT ["dotnet", "QuickBooksProxy.dll"]
+
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+
