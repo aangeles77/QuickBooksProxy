@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Xlx44UrEjiiuoSOgOGIzwrqVkaSSLhPvGPh9/HFRCpo=",
+  "Source": "QuickBooksProxy",
+  "BasePath": "_content/QuickBooksProxy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
