@@ -38,6 +38,12 @@ public class QuickBooksAuthController : ControllerBase
         var json = await response.Content.ReadAsStringAsync();
         return Content(json, "application/json");
     }
+    [HttpGet("ping")]
+    public IActionResult Ping()
+    {
+        return Ok("pong");
+    }
+
 }
 
 public class TokenRequest

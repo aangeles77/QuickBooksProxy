@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickBooksProxy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc9300f0a5fa7259b4025bf0e3c240154543b2d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4483d8413b44404b6f14274cced373fbf158ea2")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickBooksProxy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickBooksProxy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

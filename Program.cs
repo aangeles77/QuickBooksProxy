@@ -20,6 +20,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -53,6 +54,12 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 
 app.UseCors(MyAllowSpecificOrigins);
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapControllers(); // <-- this is critical
 
 app.Run();
 
