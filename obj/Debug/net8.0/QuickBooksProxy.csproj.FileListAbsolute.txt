@@ -31,3 +31,4 @@
 /Users/angeloangeles/GRUSoft/QuickBooksProxy/obj/Debug/net8.0/QuickBooksProxy.pdb
 /Users/angeloangeles/GRUSoft/QuickBooksProxy/obj/Debug/net8.0/QuickBooksProxy.genruntimeconfig.cache
 /Users/angeloangeles/GRUSoft/QuickBooksProxy/obj/Debug/net8.0/ref/QuickBooksProxy.dll
+/Users/angeloangeles/GRUSoft/QuickBooksProxy/obj/Debug/net8.0/QuickBooksProxy.sourcelink.json

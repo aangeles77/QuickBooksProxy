@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using QuickBooksProxy.Services;
 using System.Net.Http.Headers;
 using System.Text;
 
@@ -9,10 +10,12 @@ namespace QuickBooksProxy.Controllers;
 public class QuickBooksAuthController : ControllerBase
 {
     private readonly IHttpClientFactory _httpClientFactory;
+    private readonly QuickBooksService? _qbService;
 
-    public QuickBooksAuthController(IHttpClientFactory httpClientFactory)
+    public QuickBooksAuthController(IHttpClientFactory httpClientFactory, QuickBooksService qbService)
     {
         _httpClientFactory = httpClientFactory;
+        _qbService = qbService;
     }
 
     [HttpPost("exchange")]
@@ -44,6 +47,21 @@ public class QuickBooksAuthController : ControllerBase
         return Ok("pong");
     }
 
+
+    [HttpGet("callback")]
+    public async Task<IActionResult> Callback([FromQuery] string code)
+    {
+        var token = await _qbService!.ExchangeCodeForTokenAsync(code);
+        return Ok("Authentication complete. You may close this window.");
+    }
+
+    [HttpGet("token")]
+    public IActionResult GetToken()
+    {
+        var token = _qbService!.GetAccessToken();
+        if (token == null) return Unauthorized();
+        return Ok(new { accessToken = token });
+    }
 }
 
 public class TokenRequest

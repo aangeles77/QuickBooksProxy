@@ -1,0 +1,12 @@
+/Users/angeloangeles/GRUSoft/publish/QuickBooksProxy
+/Users/angeloangeles/GRUSoft/publish/appsettings.Development.json
+/Users/angeloangeles/GRUSoft/publish/appsettings.json
+/Users/angeloangeles/GRUSoft/publish/QuickBooksProxy.dll
+/Users/angeloangeles/GRUSoft/publish/QuickBooksProxy.deps.json
+/Users/angeloangeles/GRUSoft/publish/QuickBooksProxy.runtimeconfig.json
+/Users/angeloangeles/GRUSoft/publish/QuickBooksProxy.pdb
+/Users/angeloangeles/GRUSoft/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/angeloangeles/GRUSoft/publish/Microsoft.OpenApi.dll
+/Users/angeloangeles/GRUSoft/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/angeloangeles/GRUSoft/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/angeloangeles/GRUSoft/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
